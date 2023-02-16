@@ -1,0 +1,74 @@
+body {
+    background: lightgrey;
+    font-family: sans-serif;
+}
+
+.navbar {
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+.navbar li:hover {
+    background: rgb(233, 233, 233);
+}
+
+.title {
+    background: grey;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+.maincontent{
+    border: solid grey 1px;
+    background: white;
+    color: black;
+    padding: 1em;
+}
+
+img {
+    width: 500px;
+    padding: 1em;
+    display: inline-block;
+    position: absolute;
+    
+}
+.homepage {
+    display: inline-block;
+    width: 600px;
+    padding: 1em;
+    position:relative
+}
+span span {
+    font-size: 120%;
+}
+
+
+.head {
+    font-weight: bold;
+}
+.input {
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+textarea {
+    width: 80em;
+    height: 50em;
+}
+
+
+.error {
+    background: darkred;
+    outline: solid darkred 2px;
+    border: solid white 2px;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+}
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>classmates table revisited</title>
+</head>
+<body>
+	
+	<style type="text/css" media="screen">
+		table{
+			border-collapse: collapse;
+			margin: 2em;
+			}
+		
+		table th, table td{
+			border-right: solid black 1px;
+			}
+		
+		table th:last-child, table td:last-child{
+			border-right: none;
+			}
+		
+		tr:nth-child(2n+3) {
+			background: lightgrey;
+			}
+			
+		
+	</style>
+	
+	
+	
+	<table>
+	
+		<caption> Classmates </caption>
+	
+		<tr>
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>Doe</td>
+			<td>21</td>
+		</tr>
+		<tr>
+			<td>Jain</td>
+			<td>Doe</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			<td>Jake</td>
+			<td>Doe</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Lisa</td>
+			<td>Peters</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Kim</td>
+			<td>Jansens</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<th colspan="2">Total</th>
+			<th>63</th>
+		</tr>
+		
+	</table>
+	
+</body>
+</html>

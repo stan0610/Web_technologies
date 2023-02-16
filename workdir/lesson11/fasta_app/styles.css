@@ -1,0 +1,56 @@
+body {
+    background: lightgrey;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+.navbar {
+    border-bottom: solid red 1px;
+}
+
+.input-wrap {
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid black 1px;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+.invalid-nt {
+    color: darkred;
+    border-bottom: solid red 2px
+}
+
+.barplot {
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+    padding: 1em;
+    width: 600px;
+}
+.bar {
+    border: solid grey 1px;
+    width: 600px;
+}
+.fill {
+    background: lightblue;
+    text-align: right;
+}
+
+.error {
+    background: darkred;
+    color: white;
+    font-weight: bold;
+    border: solid white 2px;
+    outline: solid darkred 2px;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS properties</title>
+	
+	<style type="text/css">
+		.colors {
+			color: green; 
+			color: rgb(125,0,100);
+			}
+			
+		.bg {
+			background: #22B9CC;	
+			background: rgba(100,0,120,0.4);	
+			}
+		
+		.border {
+			border: solid red 1px;
+			border: dashed purple 3px;
+			border: dotted purple 3px;
+			border: inset green 3px;
+			}
+		
+		.margin-padding {
+			border: solid gray 1px;
+			margin: 20px;
+			padding: 20px;
+			}
+		
+		.width-height {
+			background: pink;
+			padding: 10px;
+			height: 125px;
+			width: 125px;
+			overflow: scroll;
+			}
+		
+		.box-model {
+			background: lightgreen;
+			margin-top: 100px;
+			width: 150px;
+			height: 75px;
+			border: solid green 5px;
+			padding: 20px;
+			box-sizing: border-box;
+			}
+		
+		.outline {
+			margin: 20px;
+			border: solid red 5px;
+			outline: solid lightblue 5px;
+			
+			background: darkred;
+			padding: 12px;
+			color: white;
+			border: solid white 2px;
+			outline: solid darkred 2px
+			}
+		
+		.fonts {
+			margin: 2em;
+			font-size: 1.2em;
+			color: steelblue;
+			font-weight: bold;
+			font-style: italic;
+			font-family: monospace;
+			font-variant: small-caps;
+			
+			text-align: justify;
+			word-spacing: 10px;
+			letter-spacing: 5px;
+			}
+		
+		.anchors {
+			margin: 1em;
+			}
+		.anchors a:link {
+			color: pink;
+			}
+		.anchors a:visited {
+			color: grey;
+			}
+		.anchors a:active {
+			color: lime;
+			}
+		.anchors a:hover {
+			color: gold;
+			font-weight: bold;
+			}
+		/* a {
+			color: red;
+			} */
+		
+	</style>
+	
+</head>
+<body>
+	
+	<div class="colors">
+		about colors
+	</div>
+	
+		<br>
+	
+	<div class="bg">
+		background
+	</div>
+	
+		<br>
+	
+	<div class="border">
+		give me a border please
+	</div>
+	
+		<br>
+	
+	<div class="margin-padding">
+		this is some content
+	</div>
+	
+		<br>
+		
+	<div class="width-height">
+		somecontentsomecontentsomecontentsomecontent
+		some content
+		some content
+		some content
+		some content
+		some content
+		some content
+		some content
+	</div>
+	
+	<br>
+	
+	<div class="box-model">
+		inner
+	</div>
+	
+		<br>
+	
+	<div class="outline">
+		give me an outline please
+	</div>
+	
+		<br>
+	
+	<div class="fonts">
+		Add some font-styles...
+		Add some font-styles...
+		Add some font-styles...
+		Add some font-styles...
+	</div>
+	
+		<br>
+		
+	<div class="anchors">
+		<a href="#">This is a link </a>
+		
+	</div>	
+	<div>
+		<a href="#">outside of .anchors</a>
+		
+	</div>	
+	<div class="anchors">
+		<a href="#not-visited">unvisited</a>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<style type="text/css" media="screen">
+		
+		ol {
+			list-style-type: upper-roman;
+			}
+		ul {
+			list-style-type: square;
+	</style>
+	<ul>
+		<li>list item 1</li>
+		<li>list item 2</li>
+	</ul>
+	
+	<ol>
+		<li>list item 1</li>
+		<li>list item 2</li>
+	</ol>
+	
+	
+	
+	
+	
+	<style type="text/css" media="screen">
+		
+		table {
+			/*border: solid black 1px;*/
+			border-collapse: collapse;
+			}
+		table th, table td {
+			border: solid black 1px;
+			padding: 0.5em 1em;
+			background: lightgreen;
+			}
+			
+		table td {
+			background: lightblue;
+			}
+		
+	</style>
+	
+	<table>
+		<tr>
+			<th>Col1</th>
+			<th>Col2</th>
+			<th>Col3</th>
+		</tr>
+		
+		<tr>
+			<td>Data a</td>
+			<td>Data b</td>
+			<td>Data c</td>
+		</tr>
+		
+		<tr>
+			<td>Data x</td>
+			<td>Data y</td>
+			<td>Data z</td>
+		</tr>
+	</table>
+	
+		<br>
+	
+	<style type="text/css" media="screen">
+		
+		.position {
+			margin: 3em 0;
+			position: relative;
+			}
+		
+		.display {
+			color: blue;
+			background: yellow;
+			display: inline-block;
+			height: 4em;
+			width: 100px;
+			visibility: hidden;
+			}
+		
+		.abs {
+			color: red;
+			position: static;
+			position: absolute;
+			position: fixed;
+			left: 0;
+			top: 0;
+			}
+		
+		
+	</style>
+	
+	<div class="position">
+		before
+		<div class="display">
+			can you see me?
+		</div>
+		after
+		
+		<div class="abs">
+			abs inside position
+		</div>
+	</div>
+	
+	
+	<div class="abs">
+		abs outside position
+	</div>	
+	
+	
+	
+</body>
+</html>

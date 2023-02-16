@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>More CSS selectors</title>
+</head>
+<body>
+	
+	<style type="text/css" media="screen">
+		/*div > div {
+			color: red;
+			} */
+			
+		/*div ~ div {
+			color: red;
+			} */
+			
+		div div:first-child {
+			color: red;
+			}
+
+	</style>
+	
+	<div >
+		parent
+		<div >
+			child1
+		</div>
+		<div >
+			child2
+		</div>
+		<pre> in between </pre>
+		<div >
+			child3
+		</div>
+		
+		<blockquote>
+		<div >
+			child4
+			<div >
+				grandchild
+			</div>
+		</div>
+		</blockquote>
+	</div>
+	
+	
+	
+	
+	
+</body>
+</html>
